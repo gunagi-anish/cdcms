@@ -2,6 +2,7 @@
  <!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
 <style>
+  
   #header{
     height:70vh;
     width:calc(100%);
@@ -13,7 +14,7 @@
     position:absolute;
     height:calc(100%);
     width:calc(100%);
-    background-image:url(<?= validate_image($_settings->info("cover")) ?>);
+    background-image:url("https://i.pinimg.com/736x/1f/87/61/1f87619d37fff45ce46f6c58ef62b9a2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center center;
